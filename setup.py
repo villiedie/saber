@@ -43,7 +43,7 @@ setuptools.setup(
         'google-compute-engine',
         'msgpack==0.5.6',
         'keras-contrib @ git+https://www.github.com/keras-team/keras-contrib.git',
-        'en-coref-md @ https://github.com/huggingface/neuralcoref-models/releases/download/en_coref_md-3.0.0/en_coref_md-3.0.0.tar.gz',
+        'en-coref-md @ https://github.com/huggingface/neuralcoref-models/releases/download/en_coref-4.0.0/en_coref-4.0.0.tar.gz',
     ],
     include_package_data=True,
     # allows us to install + run tests with `python setup.py test`
