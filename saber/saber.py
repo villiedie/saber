@@ -215,6 +215,7 @@ class Saber(object):
                                                        model_filepath=model_filepath)
 
         end = time.time() - start
+        print(self.model.summary())
         print('Done ({0:.2f} seconds).'.format(end))
 
     def load_dataset(self, directory=None):
