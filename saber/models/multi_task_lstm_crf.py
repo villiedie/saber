@@ -143,6 +143,7 @@ class MultiTaskLSTMCRF(BaseKerasModel):
             with tf.device('/cpu:0'):
                 model = Model(inputs=[word_ids, char_ids], outputs=[output_layer])
             self.models.append(model)
+            print(model.summary())
 
     def compile(self):
         """Compiles the BiLSTM-CRF.
